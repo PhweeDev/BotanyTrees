@@ -1,0 +1,37 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "ic2:rubber_sapling"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "ic2:rubber_sapling"
+    },
+    "categories": [
+      "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "ic2:rubber_sapling"
+    },
+    "drops": [
+      {
+        "chance": 0.50,
+        "output": {
+          "item": "ic2:rubber_wood"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+    },
+    {
+        "chance": 0.15,
+        "output": {
+          "item": "ic2:rubber_sapling"
+        }
+      }
+    ]
+  }
