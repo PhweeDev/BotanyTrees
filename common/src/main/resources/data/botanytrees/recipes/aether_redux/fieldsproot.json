@@ -3,13 +3,13 @@
     {
       "type": "bookshelf:item_exists",
       "values": [
-        "aether_redux:fieldsprout_sapling"
+        "aether_redux:fieldsproot_sapling"
       ]
     }
   ],
   "type": "botanypots:crop",
   "seed": {
-    "item": "aether_redux:fieldsprout_sapling"
+    "item": "aether_redux:fieldsproot_sapling"
   },
   "categories": [
     "dirt",
@@ -17,13 +17,13 @@
   ],
   "growthTicks": 2750,
   "display": {
-    "block": "aether_redux:fieldsprout_sapling"
+    "block": "aether_redux:fieldsproot_sapling"
   },
   "drops": [
     {
       "chance": 1.00,
       "output": {
-        "item": "aether_redux:fieldsprout_log"
+        "item": "aether_redux:fieldsproot_log"
       },
       "minRolls": 1,
       "maxRolls": 2
@@ -39,7 +39,7 @@
   {
     "chance": 0.20,
     "output": {
-      "item": "aether_redux:fieldsprout_petals"
+      "item": "aether_redux:fieldsproot_petals"
     },
     "minRolls": 1,
     "maxRolls": 1
@@ -47,7 +47,7 @@
   {
       "chance": 0.10,
       "output": {
-        "item": "aether_redux:fieldsprout_sapling"
+        "item": "aether_redux:fieldsproot_sapling"
       }
     }
   ]
