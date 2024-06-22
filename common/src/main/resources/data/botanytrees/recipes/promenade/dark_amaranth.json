@@ -1,0 +1,46 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "promenade:dark_amaranth_fungus"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "promenade:dark_amaranth_fungus"
+  },
+  "categories": [
+    "end",
+    "black_dylium"
+  ],
+  "growthTicks": 2400,
+  "display": {
+    "block": "promenade:dark_amaranth_fungus"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "promenade:dark_amaranth_stem"
+      },
+      "minRolls": 2,
+      "maxRolls": 4
+  },
+  {
+    "chance": 0.20,
+    "output": {
+      "item": "minecraft:stick"
+    },
+    "minRolls": 1,
+    "maxRolls": 2
+  },
+  {
+      "chance": 0.01,
+      "output": {
+        "item": "promenade:dark_amaranth_fungus"
+      }
+    }
+  ]
+}
